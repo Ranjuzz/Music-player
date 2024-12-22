@@ -8,7 +8,7 @@ const PORT = 3000;
 app.set('view engine', 'ejs');
 
 // Serve static files
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '')));
 
 // Home route
 app.get('/', (req, res) => {
