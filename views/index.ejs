@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="header">
+    <img src="/images/banner.png" alt="Music Banner" class="banner">
+    <h1>Music Stream</h1>
+</div>
+
+<div class="player-container">
+    <audio id="audio-player" controls>
+        <source src="<%= streamUrl %>" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+</body>
+</html>
